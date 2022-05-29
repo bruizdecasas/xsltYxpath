@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Asociamos el xml con nuestro fihcero XLS-->
+
+<?xml-stylesheet type="text/xsl" href="Edix.xsl"?>
+<ite nombre="Instituto Tecnológico Edix" web="https://institutotecnologico.edix.com">
+
+    <empresa>Proeduca</empresa>
+    <telefono>+34 91 787 39 91</telefono>
+    <profesores>
+        <profesor>
+            <id>1</id>
+            <nombre>Félix</nombre>
+        </profesor>
+        <profesor>
+            <id>2</id>
+            <nombre>Raúl</nombre>
+        </profesor>
+        <profesor>
+            <id>3</id>
+            <nombre>Raquel</nombre>
+        </profesor>
+        <profesor>
+            <id>4</id>
+            <nombre>Tomás</nombre>
+        </profesor>
+    </profesores>
+    <director>
+        <nombre>Chon</nombre>
+        <despacho>123</despacho>
+    </director>
+    <jefe_estudios>
+        <nombre>Dani</nombre>
+        <despacho>120</despacho>
+    </jefe_estudios>
+    <ciclos>
+        <ciclo id="ASIR">
+            <nombre>Administración de Sistemas Informáticos en Red</nombre>
+            <grado>Superior</grado>
+            <decretoTitulo año="2009" />
+        </ciclo>
+        <ciclo id="DAW">
+            <nombre>Desarrollo de Aplicaciones Web</nombre>
+            <grado>Superior</grado>
+            <decretoTitulo año="2010" />
+        </ciclo>
+        <ciclo id="DAM">
+            <nombre>Desarrollo de Aplicaciones Multiplataforma</nombre>
+            <grado>Superior</grado>
+            <decretoTitulo año="2010" />
+        </ciclo>
+    </ciclos>
+</ite>
